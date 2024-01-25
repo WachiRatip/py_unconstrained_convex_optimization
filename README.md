@@ -30,3 +30,11 @@ The algorithms are implemented in the `optimisation_algorithms.py` file. The `ma
 ```
 python main.py
 ```
+
+## References
+- [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent)
+- [Gradient descent with momentum](https://en.wikipedia.org/wiki/Stochastic_gradient_descent#Momentum)
+- [Nesterov accelerated gradient descent](https://en.wikipedia.org/wiki/Stochastic_gradient_descent#Nesterov_accelerated_gradient_descent)
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
