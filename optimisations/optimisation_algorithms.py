@@ -66,7 +66,7 @@ class ConvexSolver:
 class ConvexSolverWithMomentum:
     """
     Class for solving the optimisation problem
-    using the gradient descent algorithm
+    using the gradient descent algorithm with momentum
     when f(x) is a convex function and the gradient of f(x) is Lipschitz continuous
     the gradient descent algorithm is guaranteed to converge to the global minimum
     of f(x) when the learning rate is sufficiently small
@@ -137,7 +137,7 @@ class ConvexSolverWithMomentum:
 class ConvexSolverWithNesterovMomentum:
     """
     Class for solving the optimisation problem
-    using the gradient descent algorithm
+    using the gradient descent algorithm with Nesterov's accelerated gradient descent
     when f(x) is a convex function and the gradient of f(x) is Lipschitz continuous
     the gradient descent algorithm is guaranteed to converge to the global minimum
     of f(x) when the learning rate is sufficiently small
