@@ -1,4 +1,12 @@
 # Optimisations algorithms for solving unconstrained convex problems
+## Table of contents
+- [Introduction](#introduction)
+- [How to setup the environment](#how-to-setup-the-environment)
+- [How to run the tests (Pytest)](#how-to-run-the-tests-pytest)
+- [Usage](#usage)
+- [References](#references)
+- [License](#license)
+
 ## Introduction
 This repository contains the implementation of the following algorithms:
 - Gradient descent
