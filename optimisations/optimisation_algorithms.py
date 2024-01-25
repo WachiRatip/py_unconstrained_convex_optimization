@@ -48,6 +48,8 @@ class ConvexSolver:
     def solve(self):
         """
         Solve the optimisation problem
+        Note: the implementation of gradient descent
+                x = x - lr*grad_f(x)
         """
         while not self.converged:
             self.iter += 1
