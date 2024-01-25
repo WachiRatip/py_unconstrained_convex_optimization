@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.testing import assert_almost_equal, assert_array_almost_equal
 
-from optimisations.optimisation import ConvexSolver, ConvexSolverWithMomentum, ConvexSolverWithNesterovMomentum
+from optimisations.optimisation_algorithms import ConvexSolver, ConvexSolverWithMomentum, ConvexSolverWithNesterovMomentum
 
 # Test the ConvexSolver class
 def test_convex_solver():
