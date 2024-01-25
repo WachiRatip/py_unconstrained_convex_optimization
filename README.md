@@ -1,4 +1,5 @@
 # Optimisations algorithms for solving unconstrained convex problems
+
 ## Table of contents
 - [Introduction](#introduction)
 - [How to setup the environment](#how-to-setup-the-environment)
@@ -8,10 +9,13 @@
 - [License](#license)
 
 ## Introduction
-This repository contains the implementation of the following algorithms:
+[Unconstrained convex problems](https://neos-guide.org/guide/types/#unconstrained) can be solved using gradient descent. However, gradient descent can be slow to converge. In order to speed up the convergence, gradient descent can be modified by adding a momentum term. This repository contains the implementation of the following algorithms:
 - Gradient descent
 - Gradient descent with momentum
 - Nesterov accelerated gradient descent
+
+The algorithms are implemented in Python and [Numpy](https://numpy.org/) and tested using [Pytest](https://docs.pytest.org/en/7.4.x/index.html).
+
 
 ## How to setup the environment
 refer to setup.ps1 for Windows users 
